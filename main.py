@@ -78,9 +78,9 @@ raffle1.add ("Gunther")
 print(raffle1)
 #################################################booleans######################################################
 # booleans
-# a boolean can only have 2 values -- true or False
-# my_bool = 5 > 4
-#print(my_bool)
+# a boolean can only have 2 values -- true or false
+my_bool = 5 > 4
+print(my_bool)
 
 # > greater
 # < less
@@ -89,26 +89,29 @@ print(raffle1)
 # == equal
 # != different or not equal to
 
-# you can also construct booleans to see if values ar in a variable or not found
-# my_ bool = 5 in my_list
-# my_bool = 5 not in my_list
+# you can also construct booleans to see if values ar in a variable or not fou
+my_bool = 5 in my_list
+print(my_bool)
 
-# so we can see if we can make logical decisions if something is true or not
-# var1 = True
-# var2 = False
-# print(type(var1))
-# print(var1)
+# so we  can see if we can make logical decisions if something is true or not
+var1 = True
+var2 = False
+print(type(var1))
+print(var1)
 
-# list = [1,2,3,4,5,6]
-# control = 5 in list
-# print(type(control))
-# print(control)
+list = [1,2,3,4,5,6]
+control = 5 in list
+print(type(control))
+print(control)
 
 # Booleans Practice
 
 # Make a comparison that returns a boolean and store the result (True/False) in a variable called test
 
-# Check if 17834/34 is greater than 87*56 and print the boolean result to the screen using print()
+# Check if 17834/34 is greater than 87*56 and print the boolean result to the screen using 
+div = 17834/34
+mul = 87*56
+print(div > mul)
 
 # Check if the square root of 25 is equal to 5 and display the result (boolean) on the screen using print
 
@@ -119,19 +122,27 @@ print(raffle1)
 
 # dictionaries
 # another data structure that stores data that can be unstructured
-# employee = {'first_name': 'steven',
-#             'last_name': 'pretti',
-#              'weight': 37.2,
-#               'size': 5.77
-#              'height:' 6}
-# print(employee['weight'])
+employee = {'first_name': 'steven',
+            'last_name': 'pretti',
+             'weight': 37.2,
+              'size': 5.77,
+             'height' : 6}
+print(employee['weight'])
 
+warrior = {'made by' : 'hbomax', 
+       'release date' :2018,
+        'budget': '24million',
+        'rotten-tomatoes' : 'fresh'}
+warrior['score'] = 78
+print(warrior.items())
+print (warrior.keys())
 #challenge 1
 # Create a dictionary called my_dict that stores the following information about a person:
-# name: Karen
-# surname: Jurgens
-# age: 35
-# occupation: Journalist
+my_dict = { 'name' : 'Karen',
+'surname': 'Jurgens',
+'age': 35,
+'occupation': 'Journalist', }
+print(my_dict)
 # The names of the keys and values must be equal to the ones indicated above.
 
 #challenge 2:
